@@ -1,0 +1,8 @@
+var http=require('http');
+var onReceiveServer=function(req,res){
+      res.write("<h1>IET ,CDAC</h1>");
+      res.end();
+};
+var app=http.createServer(onReceiveServer);
+app.listen(9000);
+console.log("test web server is Listening on port 9000");

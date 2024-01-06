@@ -1,0 +1,45 @@
+1.Create Node JS application
+   server.js needed
+2.Add Dockerfile to node js application.
+   file add in application folder
+3.Define automation script for creating custom container image
+   script for particular app(https://github.com/RaviTambade/sittflstore)
+        FROM node:12
+	WORKDIR /app
+        COPY package.json /app
+        RUN npm install
+        COPY . /app
+        CMD node server.js
+        EXPOSE 8000
+4.Push Node JS appliation to Github repo at git site.
+       all github command to push repo
+5.Create Virtual machine in On-premise or Hosted enviornment.
+	create instance in aws
+6.Clone NodeJS app repo to Linux VM.
+   git clone repolink
+7.Install Docker container execution engine.
+   sudo apt install docker.io
+   ps ---> to check the current process.
+   sudo systemctl --type=service --state=running --> to check docker is running or not 
+
+8.Start docker engine.
+   sudo docker ps -> no of conatiners/docker engine started
+9.build Docker container image using Docker build command.
+    sudo docker images
+    sudo docker build -t image_name . --> t-> target image_name-> container . -> current folder
+10.Ensure Container image is created in Linux machine.
+    sudo docker images --> it will show created image name
+11.start container instance using docker run command.
+    sudo docker run -d -p 8000:8000 image_name --> -d->detached mode -p--> port
+12.Check website inside container instance by invoking externally.
+    copy ip add:port_number
+13.Enure firewall for LInux VM is set to accept HTTP trafic from anywhere.
+    security group on instance
+14.User browser to access web site from local machine.
+    donee
+15.List down all container instance running
+16.List down all container images created in Linux VM
+17.Kill unnessary container intancess running .
+18.Remove container images from LInux VM
+19.STop Docker running.
+20.STop or terminate Linux VM running
