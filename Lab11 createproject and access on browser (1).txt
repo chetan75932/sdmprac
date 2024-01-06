@@ -1,0 +1,24 @@
+Launch instance
+goto ide/or simple notepad
+create .js file/select all files when save and give extension .js
+js code for runnning in port
+
+var http = require('http');
+---
+---
+---
+---
+
+now run this js file in linux
+for runnning runtime require which is node js
+sudo apt update 
+sudo apt install nodejs
+node file_name.js -- run javascript file
+copy ip adress of instance created and take port and accessing from chrome 199.7.2.112:9000 ----> error
+error--firewall config required for instance 
+firewall config--go to security group
+               --click on link
+               --add inbound rules
+               --add all traffic 
+               --save rule
+ready to run from chrome or anywhere

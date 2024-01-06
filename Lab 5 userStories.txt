@@ -1,0 +1,12 @@
+USER STORY
+
+As a student I want so that I
+
+As a student I want to get myself validated so that I can view my profile and submit my exam.
+As a student I want an enviornment such that no technical disturbances occurs during the exam.
+As a student I want an user-friendly enviornment so that navigation becomes easier.
+As a student I want to get notified prior so that I do not miss any examination.
+As a student I want a timer so that I can keep track of time during exam.
+As a student I want highlighted annotations of the questions so that I can have a clear understanding
+of attempted and unattempted ones.
+As a student I want a feedback system so that I can submit my review about my examination

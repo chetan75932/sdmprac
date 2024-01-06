@@ -1,0 +1,6 @@
+putty is for connection from your local machine
+Download putty software
+copy ip address of created instance
+connection->data->write->ubuntu
+SSH->Auth->crendentialfile->browse-->upload that downloaded ppk file.
+setupt done run all the commands
